@@ -1,0 +1,65 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*, *::before, *:after{
+    box-sizing: inherit;
+}
+
+.divisao{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+    height: 100vh;
+}
+
+.ladoEsquerdo{
+    background-color: aqua;
+}
+
+.ladoDireito{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.cadastro{
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+
+    input{
+        display: block;
+        width: 100%;
+        height: 32px;
+        box-sizing: border-box;
+        margin-bottom: 15px;
+    }
+
+    label{
+       display: block;
+       text-align: left;
+       margin-bottom: 5px;
+       width: 100%;
+       
+    }
+    label.entrar{
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+
+
+.entrar a{
+    color: brown;
+    text-decoration: none;
+    font-weight: bold;
+}
