@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -9,46 +9,63 @@
 </head>
 
 <body>
-
     <div class="divisao">
         <div class="ladoEsquerdo">
-            <p>Lado esquedo-foto</p>
+            <div class="logo">
+                <h2><span>🌱</span>AgroCiclo</h2>
+            </div>
+
+            <div class="textoIntro">
+                <h1>Sua fazenda e sua equipe sob seu controle.</h1>
+            </div>
         </div>
 
         <div class="ladoDireito">
-            <div class="cadastro">
-                <h2>Cadastro do proprietário</h2>
-                <p>Primeiro acesso ao AgroCiclo.</p>
 
-                <h1>Seus dados</h1>
-                <label>completo:
+            <div class="cadastro">
+                <h1>Cadastro do proprietário</h1>
+                <p class="substituto">Primeiro acesso ao AgroCiclo.</p>
+
+                <h3>Seus dados</h3>
+                <label>Nome completo
                     <input type="text" placeholder="Digite o seu nome">
                 </label>
-                <label>E-mail:
+
+                <label>E-mail
                     <input type="text" placeholder="nome@exemplo.com">
                 </label>
 
-                <h1>Acesso</h1>
-                <label>Senha:
-                    <input type="password" placeholder="Crie uma senha">
-                </label>
-                
-                <label>Confirmar senha:
-                    <input type="password" placeholder="Confirme a sua senha">
-                    <!-- <p> de 8 carateres, com letras e números</p> -->
-                </label>
+                <h3>Acesso</h3>
+                <div class="linhaSenha">
+                    <label>Senha
+                        <input type="password" placeholder="Crie uma senha">
+                    </label>
 
-                <button type="submit" class="botaoC">Cadastrar</button>
+                    <label>Confirmar senha
+                        <input type="password" placeholder="Confirme a sua senha">
+                    </label>
+                </div>
+
+                <span class="dicaSenha">Mínimo de 8 caracteres, com letras e númeoros.</span>
+
+                <div class="termos">
+                    <input type="checkbox" id="aceitoTermos">
+                    <label for="aceitoTermos">
+                        Li e aceito os <a href="Tem que ver esse link">termos de uso</a> e a <a
+                            href="Tem que ver esse link">política de privacidade</a>
+                    </label>
+                </div>
+
+                <!-- <button type="submit" class="botaoC">Cadastrar</button> -->
+
+                <a href="principal.html" class="botaoC"> Cadastrar</a>
 
                 <label class="entrar">
-                    Já tem conta? <a href="pagina de login">Entrar</a>
+                    Já tem conta? <a href="login.html">Entrar</a>
                 </label>
-    
             </div>
-
         </div>
     </div>
-
 </body>
 
 </html>
