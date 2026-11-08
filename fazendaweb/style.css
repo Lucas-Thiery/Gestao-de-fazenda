@@ -26,6 +26,11 @@ html, body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    background-image: url("imagens/paisagem.svg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 140% auto;
+
 }
 
 .ladoEsquerdo .logo h2 {
@@ -37,7 +42,7 @@ html, body {
     gap: 10px;
 }
 
-.ladoEsquerdo .textoHero h1 {
+.ladoEsquerdo .textoIntro h1 {
     color: white;
     font-size: 40px;
     line-height: 1.2;
@@ -228,6 +233,9 @@ html, body {
     color: white;
     font-size: 20px;
     margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .subLogo {
@@ -590,3 +598,4 @@ html, body {
 .btnCancelar:hover {
     background-color: #f1f1ef;
 }
+
